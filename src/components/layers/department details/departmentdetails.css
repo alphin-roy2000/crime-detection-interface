@@ -1,0 +1,35 @@
+.input-box-container{
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px;
+        border-radius: 7px;
+        padding: 30px;
+        background-color: var(--primary-color);
+    
+}
+.input-card{
+display: flex;
+flex: 5;
+flex-direction: column;
+align-items:flex-start;
+}
+.title{
+    color:grey;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.subtitle{
+    font-size:small;
+}
+.status .subtitle{
+    background-color: rgba(247, 197, 105, 0.842);
+    padding: 7px 10px;
+    border-radius: 50px;
+}
+.idfile svg{
+
+    fill: rgb(17, 17, 230);
+}

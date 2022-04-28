@@ -1,0 +1,35 @@
+button{
+    font-size: 16px;
+}
+button:hover{
+    cursor: pointer;
+}
+.right-button{border: none;
+height: 50px;
+        display: flex;
+        color: var(--primary-color);
+        align-items: center;
+        background: #b0dbf8;
+        
+border-radius: 50px;
+width: auto;
+padding-right: 10px;
+    
+}
+
+.right-button .icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#44a4e4;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+
+}
+.right-button svg{
+    /* height: 40px; */
+    fill: #fff;
+}

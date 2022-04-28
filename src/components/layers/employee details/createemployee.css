@@ -1,0 +1,80 @@
+ .createEmployee{
+     background-color: white;
+     margin: 10px;
+     padding: 10px;
+     border-radius: 10px;
+    
+    
+ }
+ .form-input-box-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.form-input-box-container .input-card1{
+    width: 30%;
+    padding: 15px 0px;
+ display:flex;
+ flex-direction: column;
+   
+    
+    margin: 0px 10px;
+}
+
+ .input-card1 label{
+    padding: 10px 0px;
+    
+}
+
+ .input-card1 input,select{
+    height: 34px;
+    padding: 0px 10px;
+    border: 1px solid #999;
+    background: #eee;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+ .btn-container{
+    display: inline;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+ .btn{
+    width: 150px;
+    height: 40px;
+    margin: 20px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+ .btn-primary{
+    color: #fff;
+    background-color: #44a4e4;
+    border: 1px solid #6699ff;
+    box-shadow: 1px 1px 1px #6699ff;
+}
+select option[disabled]{
+    color: green;
+}
+ .btn-secondary{
+    color: #333;
+    background: #fff;
+    border: 1px solid #333;
+   
+}
+
+input:focus{ 
+    outline: none !important;
+    border-color: #44a4e4;
+    box-shadow: 0 0 2px #44a4e4;
+}
+ input[type='submit'].active{
+    background: #333;
+    
+    
+}
