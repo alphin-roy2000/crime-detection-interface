@@ -1,25 +1,19 @@
-
-import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
-import './App.css';
-import DepartmentComponent from './components/layers/department details/departmentcomponents';
-import EmployeeList from './components/layers/employee details/employeelist';
-import LeftNav from './components/layers/leftPanel';
-import RightNav from './components/layers/rightpanel';
-// const [modalOpen, setModalOpen] = useState(false);
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './App.css'
+import Home from './pages/Home/home';
+import Login from './pages/Login/login';
+import Main from './pages/Main/main';
 
 function App() {
-
-
   return (
     <div className="App">
-    <Router>
-      
-    <LeftNav/>
-    <RightNav  className="RightNav" />
-   
-    
-    </Router>
-    
+      <Router>
+        <Routes>
+          <Route exact path="" element={<Home />} />
+          <Route exact path="login" element={<Login />} />
+          <Route exact path="main" element={<Main />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
